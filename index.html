@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tech on Bird</title>
+<style type="text/css">
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: aliceblue;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        padding: 10px;
+        color: #fff;
+    }
+    .fixed-header{
+        background: rgb(86, 134, 223);
+        top: 0;
+    }
+    .fixed-footer{
+        background: rgb(68, 65, 66);
+        padding: 5px 0;
+        bottom: 0;
+    }    
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    /* .container p{
+        line-height: 700px; // Create scrollbar to test positioning 
+    } */
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Welcome to our official website</h1>
+        
+        <p>We believe in the technology on the fly, on the bird and with speedy delivery and deployment</p>
+    </div>    
+    <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2019 ZR Technologies</div>        
+    </div>
+</body>
+</html>                            
